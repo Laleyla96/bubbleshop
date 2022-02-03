@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>BUBBLE SHOP</title>
+    <style>
+        @font-face {
+            font-family: "GardensC";
+            src: url("fonts/GardensC.otf");
+        }
+		h1{font-family: "GardensC"}
+        @media screen and (max-width: 1280px) {
+            div.contentblock {
+                width: 1200px;
+            }
+        }
+
+        @media screen and (max-width: 1140px) {
+            div.contentblock {
+                width: 1024px;
+            }
+        }
+
+        @media screen and (max-width: 992px) {
+            div. contentblock {
+                width: 970px;
+            }
+        }
+    </style>
+</head>	
+
+<body>
+
+	<section class="panel" id="first-page">
+		<header class="d-flex justify-content-between align-items-end container">
+			<div class="contact">
+				<div class="item d-flex justify-content-center align-items-center mb-2">
+					<img src="assets/img/address.png" alt="address">
+					<p class="text-upper" style="border: 3px solid #C1FF0A; background-color: black;  padding: 10px;">Хабаровск, Запарина 32 оф. 77 </p>
+				</div>
+
+				<div class="item d-flex justify-content-center align-items-center">
+					<img src="assets/img/phone.png" alt="phone">
+					<p class="text-upper" style="border: 3px solid #C1FF0A; background-color: black; padding: 10px;">+7 999 088 26 95</p>
+				</div>
+			</div>
+			<button class="btn btn-order text-upper">Заказать<br>звонок</button>
+		</header>
+		<div class="container d-flex flex-column align-items-center justify-content-center content"
+			 style="margin-top: 75px;">
+			<ul class="nav">
+				<li class="text-upper"><a href="#new">Новые поступления</a></li>
+				<li class="text-upper"><a href="#advantages">Наши преимущества</a></li>
+				<li class="text-upper"><a href="#sub">Вход/Регистрация</a></li>
+			</ul>
+			<h1 class="site-name text-upper" style="margin-top: 40px; border: 3px dotted #C1FF0A; background-color:black; padding: 10px;">BUBBLE SHOP</h1>
+			<a class="btn btn-white-big text-upper" style="margin-top: 25px" href="#catalog">Каталог</a>
+		</div>
+	</section>
+	<section class="panel" id="advantages">
+		<h1 class="section-title text-upper" style="color:black;">
+			Наши преимущества
+		</h1>
+		<div class="container content d-flex	justify-content-center align-items-center mt-5">
+			<div class="content w-75 d-flex	 justify-content-around align-items-center" style="height: 250px;" id="advantages">
+				<div class="item">
+					<img src="assets/img/advantages/1.png" alt="advantages">
+					<p>БОЛЬШОЙ ВЫБОР ОБУВИ</p>
+				</div>
+				<div class="item">
+					<img src="assets/img/advantages/4.png" alt="advantages">
+					<p>МГНОВЕННАЯ ДОСТАВКА</p>
+				</div>
+				<div class="item">
+					<img src="assets/img/advantages/3.png" alt="advantages">
+					<p>ГАРАНТИЯ КАЧЕСТВА</p>
+				</div>
+				<div class="item">
+					<img src="assets/img/advantages/2.png" alt="advantages">
+					<p>ОНЛАЙН-ПОМОЩНИК</p>
+				</div>
+			</div>
+		</div>
+		<p></p>
+		<p></p>
+		<p></p>
+	</section>
+	<section class="panel" id="new">
+		<h1 class="section-title text-upper" style="color:black;">Новые поступления</h1>
+		<div class="d-flex justify-content-between">
+
+			<div class="bg-white position-relative p-1 rounded" style="width: 350px;">
+				<div class="d-flex">
+					<img src="assets/img/kross1.jpg" style="width: 115%;" alt="" class="align-right">
+				</div>
+				<p class="my-5" style="color:black;">Yeezy boost 750</p>
+				<button href="" class="btn rounded btn-purple position-absolute bottom-0 start-50 translate-middle-x mb-2" style="width: 200px;">Подробнее</button>
+			</div>
+
+			<div class="bg-white position-relative p-1 rounded" style="width: 350px;">
+				<div class="d-flex">
+					<img src="assets/img/kross2.jpg" style="width: 75%;" alt="" class="align-right">
+				</div>
+				<p class="my-5" style="color:black;">Anta Char</p>
+				<button href="" class="btn rounded btn-purple position-absolute bottom-0 start-50 translate-middle-x mb-2" style="width: 200px;">Подробнее</button>
+			</div>
+
+			<div class="bg-white position-relative p-1 rounded" style="width: 350px;">
+				<div class="d-flex">
+					<img src="assets/img/kross3.jpg" style="width: 100%;" alt="" class="align-right">
+				</div>
+				<p class="my-5" style="color:black;">Nike Air Morax</p>
+				<button href="" class="btn rounded btn-purple position-absolute bottom-0 start-50 translate-middle-x mb-2" style="width: 200px;">Подробнее</button>
+			</div>
+		</div>
+	</section>
+	<section class="panel" id="sub">
+		<div class="container h-100 d-flex justify-content-center align-items-center flex-column">
+			<h1 class="section-title text-upper" style="color: #fff">Вход/Регистрация</h1>
+			<form class="w-50 mt-5 d-flex flex-column align-items-center">
+				<input type="text" class="form-control" placeholder="ФИО">
+				<input type="text" class="form-control mt-3" placeholder="ПОЧТА">
+				<BUTTON class="btn btn-white-big text-upper mt-5">Подписаться</BUTTON>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-2 col-md-6 col-lg-2">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Лучший ассортимент
+							</h3>
+							<ul>
+								<li><a href="#">Управляемый веб-сайт</a></li>
+								<li><a href="#">Управляемая репутация</a></li>
+								<li><a href="#">Инструменты</a></li>
+								<li><a href="#">Сервис Маркетинга</a></li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-6 col-lg-2">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Быстрые ссылки
+							</h3>
+							<ul>
+								<li><a href="#">Работы</a></li>
+								<li><a href="#">Активы бренда</a></li>
+								<li><a href="#">Связи с инвесторами</a></li>
+								<li><a href="#">Условия обслуживания</a></li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-6 col-lg-2">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Особенности
+							</h3>
+							<ul>
+								<li><a href="#">Работы</a></li>
+								<li><a href="#">Активы бренда</a></li>
+								<li><a href="#">Связи с инвесторами</a></li>
+								<li><a href="#">Условия обслуживания</a></li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="col-xl-2 col-md-6 col-lg-2">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Ресурсы
+							</h3>
+							<ul>
+								<li><a href="#">Гайды</a></li>
+								<li><a href="#">Поиск</a></li>
+								<li><a href="#">Эксперты</a></li>
+								<li><a href="#">Агенства</a></li>
+							</ul>
+
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-6 col-lg-4">
+						<div class="footer_widget">
+							<h3 class="footer_title">
+								Подпишись
+							</h3>
+							<p class="newsletter_text">Вы можете нам доверять. мы отправляем только промо-предложения,</p>
+							<form action="#" class="newsletter_form">
+								<input type="text" placeholder="Enter your mail">
+								<button type="submit"> <i class="ti-arrow-right"></i> </button>
+							</form>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
